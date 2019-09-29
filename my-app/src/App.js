@@ -42,7 +42,6 @@ class App extends Component {
         }
 
       }
-      return 1 // place holder 
 
     });
   }
