@@ -41,7 +41,8 @@ class App extends Component {
           this.gameOver();
         }
 
-      }
+              }
+              return 1 // place holder 
 
     });
   }
