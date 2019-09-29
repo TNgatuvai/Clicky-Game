@@ -22,7 +22,7 @@ class App extends Component {
     this.state.cards.forEach(card => {
       card.count = 0;
     });
-    alert(` \nscore: ${this.state.score}`);
+    alert(`Loser!! \nscore: ${this.state.score}`);
     this.setState({ score: 0 });
     return true;
   }
